@@ -1,0 +1,8 @@
+.has-lightbox .sl-overlay {
+  background: #2e2f42;
+}
+.has-lightbox .sl-wrapper .sl-close,
+.has-lightbox .sl-wrapper .sl-counter,
+.has-lightbox .sl-wrapper .sl-navigation button {
+  color: #fff;
+}

@@ -1,0 +1,75 @@
+.form {
+  padding-top: 55px;
+  padding-bottom: 50px;
+}
+.feedback-form {
+  max-width: 408px;
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #2e2f42;
+}
+.feedback-form label:first-child {
+  margin-bottom: 8px;
+}
+.feedback-form input,
+.feedback-form textarea {
+  margin-top: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #2e2f42;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  transition: border 0.2s ease;
+}
+.feedback-form textarea {
+  height: 80px;
+  resize: none;
+}
+.feedback-form input:hover,
+.feedback-form textarea:hover,
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+  border: 1px solid #000000;
+}
+.feedback-form input:focus-visible,
+.feedback-form textarea:focus-visible {
+  outline: none;
+}
+
+.feedback-form button {
+  margin-top: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #ffffff;
+  background-color: #4e75ff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  width: fit-content;
+  transition: background-color 0.3s ease;
+}
+
+.feedback-form button:hover {
+  background-color: #6c8cff;
+}
